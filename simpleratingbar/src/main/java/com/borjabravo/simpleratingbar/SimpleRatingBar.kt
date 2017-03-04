@@ -31,37 +31,25 @@ class SimpleRatingBar : View, View.OnTouchListener {
             onRatingChangedListener?.onRatingChange(rating, newRating)
             invalidate()
         }
-    private var onRatingChangedListener: OnRatingChangedListener? = null
+    var onRatingChangedListener: OnRatingChangedListener? = null
     private var bitmapEmpty: Bitmap? = null
-        set(value) {
-            field = value
-            invalidate()
-        }
     private var bitmapHalf: Bitmap? = null
-        set(value) {
-            field = value
-            invalidate()
-        }
     private var bitmapFilled: Bitmap? = null
-        set(value) {
-            field = value
-            invalidate()
-        }
     private val rect = Rect()
-    private var ratingCount: Int = 5
+    var ratingCount: Int = 5
         set(value) {
             field = value
-            invalidate()
+            requestLayout()
         }
     var ratingSize: Int = 0
         set(value) {
             field = value
-            invalidate()
+            requestLayout()
         }
     var ratingMargin: Int = 0
         set(value) {
             field = value
-            invalidate()
+            requestLayout()
         }
 
     constructor(context: Context) : super(context) {
