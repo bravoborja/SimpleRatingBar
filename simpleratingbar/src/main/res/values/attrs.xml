@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleRatingBar">
+        <attr name="isIndicator" format="boolean" />
+        <attr name="rating" format="float" />
+        <attr name="ratingCount" format="integer" />
+        <attr name="ratingEmpty" format="reference" />
+        <attr name="ratingHalf" format="reference" />
+        <attr name="ratingFilled" format="reference" />
+        <attr name="ratingSize" format="dimension"/>
+        <attr name="ratingMargin" format="dimension" />
+    </declare-styleable>
+</resources>
