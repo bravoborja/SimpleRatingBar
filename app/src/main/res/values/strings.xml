@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SimpleRatingBarSample</string>
+    <string name="change_indicator">Change indicator</string>
+    <string name="change_rating">Change rating</string>
+    <string name="change_rating_margin">Change rating margin</string>
 </resources>

@@ -2,17 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context="com.borjabravo.simpleratingbarsample.MainActivity">
 
     <com.borjabravo.simpleratingbar.SimpleRatingBar
         android:id="@+id/simple_rating_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:ratingEmpty="@drawable/ic_star_half"
         app:isIndicator="false"
         app:ratingCount="5"
         app:ratingMargin="15dp"
-        app:ratingSize="42dp"/>
+        app:ratingSize="42dp" />
+
+    <Button
+        android:id="@+id/btn_change_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/change_indicator" />
+
+    <Button
+        android:id="@+id/btn_change_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_rating" />
+
+    <Button
+        android:id="@+id/btn_change_rating_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_rating_margin" />
 </LinearLayout>
