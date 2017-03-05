@@ -24,6 +24,10 @@ To use the SimpleRatingBar on your app, add the following code to your layout:
     app:ratingMargin="15dp"
     app:ratingSize="42dp"/>
 ```    
+
+You can choose other properties in order to show custom drawables of SimpleRatingBar, like **ratingEmpty**, **ratingHalf** and **ratingFilled**.
+
+
 ![SimpleRatingBar](SimpleRatingBar.png)
 
 License
