@@ -1,6 +1,7 @@
 # SimpleRatingBar
 
 [![](https://jitpack.io/v/borjabravo10/SimpleRatingBar.svg)](https://jitpack.io/#borjabravo10/SimpleRatingBar)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SimpleRatingBar-green.svg?style=true)](https://android-arsenal.com/details/1/5399)
 
 SimpleRatingBar allows us to create a RatingBar with margin between items
 
