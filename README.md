@@ -33,6 +33,9 @@ You can choose other properties in order to show custom drawables of SimpleRatin
 
 ![SimpleRatingBar](SimpleRatingBar.png)
 
+## Acknowledgement
+Project based in https://github.com/Ornolfr/RatingView
+
 License
 =======
 
