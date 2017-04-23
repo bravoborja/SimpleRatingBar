@@ -8,13 +8,13 @@ tasks.withType(Javadoc) {
 }
 
 publish {
-    userOrg = 'borjabravo10'
+    userOrg = 'bravoborja'
     groupId = 'com.borjabravo'
     uploadName = 'SimpleRatingBar'
     artifactId = 'simpleratingbar'
     publishVersion = '1.0.0'
     desc = 'SimpleRating allows us to create a RatingBar with margin between items'
-    website = 'https://github.com/borjabravo10/SimpleRatingBar'
+    website = 'https://github.com/bravoborja/SimpleRatingBar'
 }
 
 
